@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Random Word Generator</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<img alt="Random Word Generator" src="img/title.gif">
+	</header>
+	<center>
+		<button id="generated_word" class="btn btn-default">Generate New Word</button>
+	</center>
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-lg-8">
+			<div class="word-main">
+				<div id="word"></div>
+				<div>
+					<span id="length"></span>
+				</div>
+				<ul id="charlist"></ul>
+			</div>
+		</div>
+		<div class="col-xs-6 col-lg-4">
+			<ul id="history"></ul>
+		</div>
+	</div>
+	<div id="watermark">
+	Submitted by: Vishwas.R
+	</div>
+	<script src='js/jquery.min.js'></script>
+	<script src="js/word generator.js"></script>
+</body>
+</html>

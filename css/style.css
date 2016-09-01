@@ -1,0 +1,35 @@
+body{
+	background: #222;
+	}
+div{
+	color: white;
+	font-size: 16px;
+	}
+.ul{
+	color: white;
+	font-size: 14px;
+	}
+
+header{
+ 	color: white;
+ 	width: 100%;
+  	float: left;
+  	height: 150px;
+  	position: relative;
+  	margin: 0 auto;
+  	padding-left: 20px;
+	text-align: center;
+	}
+.row{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#watermark
+{
+ position:fixed;
+ bottom:5px;
+ right:5px;
+ opacity:0.5;
+ z-index:99;
+ color:#ffffff;
+}
